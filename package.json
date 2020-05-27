@@ -5,8 +5,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "start": "wasc-tools watch",
-    "build": "wasc-tools build",
-    "prepublish": "npm run build && ./run.sh"
+    "build": "wasc-tools build && ./run.sh",
   },
   "files": [
     "images/"
