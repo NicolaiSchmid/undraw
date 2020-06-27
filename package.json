@@ -6,6 +6,7 @@
   "scripts": {
     "start": "wasc-tools watch",
     "build": "wasc-tools build && node build/index.js",
+    "prepublish": "npm run build",
     "bump": "standard-version"
   },
   "files": [
