@@ -11,7 +11,7 @@
     "dummy": "echo dummy"
   },
   "files": [
-    "dist/index.json"
+    "dist/"
   ],
   "devDependencies": {
     "@wasc/tools": "^5.4.1",
