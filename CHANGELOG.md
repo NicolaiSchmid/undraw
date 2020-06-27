@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.9](https://github.com/NicolaiSchmid/undraw/compare/v0.1.8...v0.1.9) (2020-06-27)
+
+
+### Bug Fixes
+
+* include all files in release ([60c5dbb](https://github.com/NicolaiSchmid/undraw/commit/60c5dbb4f131fb3474dbc97cfc08c3120933900e))
+
 ### [0.1.8](https://github.com/NicolaiSchmid/undraw/compare/v0.1.7...v0.1.8) (2020-06-27)
 
 ### [0.1.7](https://github.com/NicolaiSchmid/undraw/compare/v0.1.6...v0.1.7) (2020-06-27)
