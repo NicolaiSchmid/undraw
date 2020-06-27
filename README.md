@@ -14,6 +14,4 @@ Example:
 }
 ```
 
-Because undraw doesn't allow me to publish the images directly this only serves as a pointer to the graphics, while you could combine this module with a [remote-webpack-plugin](https://github.com/roneyrao/remote-webpack-plugin) that fetches the images at build time to maintain a legal usage of the graphics and a developer-friendly experience
-
 https://www.npmjs.com/package/@nicolaischmid/undraw
