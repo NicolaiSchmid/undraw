@@ -58,7 +58,6 @@ function sanitize(images) {
 
   Object.keys(images).map((key) => {
     const san = sanitization.filter((san) => san.key === key)[0];
-    console.log(san);
 
     if (san) {
       obj[san.replace] = images[key];
