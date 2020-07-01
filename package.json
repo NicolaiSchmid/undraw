@@ -2,6 +2,7 @@
   "name": "@nicolaischmid/undraw",
   "version": "0.1.10",
   "main": "dist/index.json",
+  "types": "dist/index.d.ts",
   "license": "Apache-2.0",
   "scripts": {
     "start": "wasc-tools watch",
