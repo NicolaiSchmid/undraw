@@ -13,7 +13,14 @@ function prepareObject(illustrations) {
   return obj;
 }
 
-function individualFile() {}
+function buildTypescript(images) {
+  return `
+declare module '@nicolaischmid/undraw' {
+${Object.keys(images)
+  .map((key) => `export const ${key}: string;`)
+  .join("  \n")}
+}`;
+}
 
 async function write(images) {
   const dir = "./dist";
@@ -23,6 +30,7 @@ async function write(images) {
   }
 
   await writeFile(`${dir}/index.json`, JSON.stringify(images));
+  await writeFile(`${dir}/index.d.ts`, buildTypescript(images));
 
   await Promise.all(
     Object.keys(images).map(async (key) => {
