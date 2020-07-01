@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.12](https://github.com/NicolaiSchmid/undraw/compare/v0.1.11...v0.1.12) (2020-07-01)
+
+
+### Bug Fixes
+
+* sanitize 3dmodeling and void ([e2cf8f8](https://github.com/NicolaiSchmid/undraw/commit/e2cf8f8a0739c5ad433296c1b1db257d03f2eb65))
+
 ### [0.1.11](https://github.com/NicolaiSchmid/undraw/compare/v0.1.10...v0.1.11) (2020-07-01)
 
 ### [0.1.10](https://github.com/NicolaiSchmid/undraw/compare/v0.1.9...v0.1.10) (2020-07-01)
