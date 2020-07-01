@@ -42,6 +42,35 @@ async function write(images) {
   );
 }
 
+const sanitization = [
+  {
+    key: "void",
+    replace: "Void",
+  },
+  {
+    key: "3DModeling",
+    replace: "modeling3d",
+  },
+];
+
+function sanitize(images) {
+  const obj = {};
+
+  Object.keys(images).map((key) => {
+    const san = sanitization.filter((san) => san.key === key)[0];
+    console.log(san);
+
+    if (san) {
+      obj[san.replace] = images[key];
+      return;
+    }
+
+    obj[key] = images[key];
+  });
+
+  return obj;
+}
+
 const query = async (page) => {
   const response = await fetch(
     `https://undraw.co/api/illustrations?${qs.stringify({ page })}`
@@ -56,7 +85,7 @@ const query = async (page) => {
 };
 
 (async () => {
-  const images = await query(1);
+  const images = sanitize(await query(1));
   console.log(images);
   await write(images);
 })();
