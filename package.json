@@ -1,6 +1,6 @@
 {
   "name": "@nicolaischmid/undraw",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "main": "dist/index.json",
   "license": "Apache-2.0",
   "scripts": {

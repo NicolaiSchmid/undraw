@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/NicolaiSchmid/undraw/compare/v0.1.9...v0.1.10) (2020-07-01)
+
+
+### Features
+
+* provide typings for exported graphics ([2a0fe24](https://github.com/NicolaiSchmid/undraw/commit/2a0fe241c31a435a554eabfe429befc2fa453c88))
+
 ### [0.1.9](https://github.com/NicolaiSchmid/undraw/compare/v0.1.8...v0.1.9) (2020-06-27)
 
 
