@@ -19,7 +19,7 @@
     "camelcase": "^6.0.0",
     "node-fetch": "^2.6.0",
     "ora": "^4.0.4",
-    "qs": "^6.9.4",
+    "qs": "^6.9.7",
     "standard-version": "^8.0.0"
   },
   "private": false
